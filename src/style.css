@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  background-color: #ffffff;
+}
+
+body {
+  @apply antialiased;
+}
+
+.btn-primary {
+  @apply bg-primary text-secondary font-bold py-4 px-8 rounded-full transition-all duration-300 hover:bg-primary-hover shadow-lg hover:shadow-xl active:scale-95 text-center;
+}
+
+.section-padding {
+  @apply py-16 md:py-24 px-4;
+}
